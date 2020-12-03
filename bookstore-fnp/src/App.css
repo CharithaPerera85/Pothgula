@@ -1,0 +1,308 @@
+
+
+body {
+  width: 100%;
+  height: 100%;
+  background-image: url("./images/bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  color: #FFFFFF;
+  font-family: 'PT Sans', sans-serif;
+
+}
+
+
+/*--------Navbar Section--------*/
+
+.navbar {
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  background-attachment: fixed;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  
+}
+
+h1{
+  color: #FFFFFF;
+  padding: 10px 0;
+}
+
+h1 a{
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  color: #FFFFFF;
+}
+
+h1 a:hover{
+  color: #1E15E0;
+}
+
+.nav{
+  
+  text-decoration: none;
+  text-align: center;
+  
+}
+
+.nav li {
+  padding: 0 15px;
+  
+  
+}
+
+.nav li a{
+  list-style: none;
+  transition: all 0.3s ease 0s;
+  color: #FFFFFF;
+  
+}
+.nav li a:hover{
+  
+  color: #1E15E0;
+ 
+}
+
+.nav-link{
+  margin-left: 570px;
+}
+
+
+
+/*--------Home Section--------*/
+
+.sty-home-heading{
+  flex-direction: column;
+  display: flex;
+  height:10vh;
+  text-align: center;
+  
+}
+
+.sty-home{
+  
+  background-color:#225207;
+  
+  padding:0;
+  margin: 0 ;
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fafafa;
+
+}
+
+.video{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.sty-home-p{
+  margin: 0 50px;
+  padding: 0 50px;
+}
+
+
+
+/*--------Book Section--------*/
+
+.sty-books-heading{
+  flex-direction: column;
+  display: flex;
+  height:10vh;
+  text-align: center;
+}
+
+.sty-books{
+  display: flex;
+  background-color:#637685;
+  padding: 10px;
+  min-height: 20vh;
+
+  
+  
+}
+
+.card{
+  
+  display: block; 
+  float:left;
+  margin:10px;
+  padding: 1px;
+  
+
+}
+
+.sty-card{
+  background-color:#225207;
+  padding: 5px;
+  color: #ffffff;
+}
+
+h6 {
+  text-align: center;
+}
+
+
+
+
+
+/*--------AddBook Section--------*/
+
+.sty-addbook{
+  background-color:#637685;
+  background-image: url("./images/img-01.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0 50px;
+ padding: 50px 0;
+  min-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.sty-addbooks-heading{
+  flex-direction: column;
+  display: flex;
+  height:10vh;
+  text-align: center;
+  
+}
+
+.sty-form{
+  display: flex;
+  background-color: #225207;
+  justify-content: center;
+  width: 500px;
+  padding: 10px 10px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+/*--------Contact Section--------*/
+.sty-contact-heading{
+  
+  flex-direction: column;
+  display: flex;
+  height:10vh;
+  text-align: center;
+}
+
+.sty-contact{
+  background-color:#ffffff;
+  min-height: 20vh;
+  display: flex;
+  align-items: center;
+  color: #050505;
+ 
+
+}
+
+.sty-contact-ul-1 li{
+  list-style: none;
+  padding-right: 100px;
+}
+
+.sty-contact-ul-2 li{
+  list-style: none;
+  padding-left: 100px;
+}
+.sty-contact-ul-3 li{
+  list-style: none;
+  padding-left: 180px;
+}
+
+
+
+
+
+
+/*--------Footer Section--------*/
+
+.sty-footer{
+  background-color:#030303;
+  margin:0;
+  min-height: 5vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Open Sans', sans-serif;
+  color: #FFFFFF;
+  font-size: smaller;
+  
+}
+
+.sty-footer-p1{
+  
+  
+  padding-top: 15px;
+  font-size: smaller;
+  margin-left: 80px;
+}
+.sty-footer-p2{
+  
+  font-size: smaller;
+  margin-left: 180px;
+  padding-top: 15px;
+ 
+}
+.sty-footer-p3{
+ 
+  margin-left:200px;
+}
+
+
+.fb{
+ 
+  padding-right: 10px;
+}
+
+
+.yt {
+ 
+  padding-right: 10px;
+  
+}
+.yt :hover{
+ 
+  
+  color: rgb(204, 21, 21);
+}
+
+
+
+.tw{
+ 
+  padding-right: 10px;
+  
+}
+
+.tw :hover{
+ 
+  color: rgb(9, 205, 240);
+}
+
+.ln{
+ 
+  padding-right: 10px;
+  
+}
+
+.ln :hover{
+ 
+  color: rgb(4, 20, 243);
+}
